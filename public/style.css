@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Asap Sharp", sans-serif;
+    background: #FFFFFF;
+    padding:0;
+    margin:0;
+}
+.content {
+    background: #ededed;
+}
+
+.header {
+height:48px;
+width:100%;
+background: #ededed;
+background: -webkit-linear-gradient(0deg, rgba(237, 237, 237, 1) 9%, rgba(255, 255, 255, 1) 64%);
+background: -moz-linear-gradient(0deg, rgba(237, 237, 237, 1) 9%, rgba(255, 255, 255, 1) 64%);
+background: linear-gradient(0deg, rgba(237, 237, 237, 1) 9%, rgba(255, 255, 255, 1) 64%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#EDEDED", endColorstr="#FFFFFF", GradientType=0);
+padding:4px;
+padding-left:14px;
+}
+
+.footer {
+height:60px;
+width:100%;
+background: #ededed;
+background: -webkit-linear-gradient(180deg, rgba(237, 237, 237, 1) 9%, rgba(255, 255, 255, 1) 64%);
+background: -moz-linear-gradient(180deg, rgba(237, 237, 237, 1) 9%, rgba(255, 255, 255, 1) 64%);
+background: linear-gradient(180deg, rgba(237, 237, 237, 1) 9%, rgba(255, 255, 255, 1) 64%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#EDEDED", endColorstr="#FFFFFF", GradientType=0);
+padding:4px;
+padding-left:16px;
+}
+
+.logo {
+    height:46px;
+}
