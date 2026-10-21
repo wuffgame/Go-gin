@@ -8,6 +8,5 @@ func main() {
 		ctx.JSON(200, gin.H{"message": "Hello!!!"})
 	})
 
-
 	r.Run(":8080")
 }
