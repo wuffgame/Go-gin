@@ -11,14 +11,14 @@ body {
 }
 
 .header {
-height:48px;
+height:52px;
 width:100%;
 background: #ededed;
 background: -webkit-linear-gradient(0deg, rgba(237, 237, 237, 1) 9%, rgba(255, 255, 255, 1) 64%);
 background: -moz-linear-gradient(0deg, rgba(237, 237, 237, 1) 9%, rgba(255, 255, 255, 1) 64%);
 background: linear-gradient(0deg, rgba(237, 237, 237, 1) 9%, rgba(255, 255, 255, 1) 64%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#EDEDED", endColorstr="#FFFFFF", GradientType=0);
-padding:4px;
+padding:0px;
 padding-left:14px;
 }
 
@@ -36,4 +36,33 @@ padding-left:16px;
 
 .logo {
     height:46px;
+}
+
+.logotext {
+font-size: 24px;
+}
+
+.sidebar {
+  margin-top: 52px;
+  width: 222px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  background-color: #fff;
+  padding-top: 0px;
+box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  left: 0;
+}
+
+.sidebaritem:hover {
+
+background: #9adf7b;
+color: #000 !important;
+}
+
+
+.sidebaritem {
+background: #e0f3ff;
+color: #000 !important;
+border-bottom: #9adf7b 2px;
 }
